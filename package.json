@@ -1,15 +1,30 @@
 {
-  "name": "gulp_package",
+  "name": "cgd102",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sexfat/cgd102.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sexfat/cgd102/issues"
+  },
+  "homepage": "https://github.com/sexfat/cgd102#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
   }
 }
